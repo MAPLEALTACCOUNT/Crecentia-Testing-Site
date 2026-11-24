@@ -1,0 +1,13 @@
+/* Design tokens, reset, form-control defaults, helper classes */
+:root{--bg:#081426;--panel:#10233d;--panel2:#142b49;--border:#24415f;--blue:#2585e8;--blue2:#48a5ff;--text:#edf5ff;--muted:#91a8c2;--green:#24c78a;--red:#f06473;--yellow:#f4bd55}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer;border:0}
+input,select,textarea{width:100%;padding:11px 13px;border-radius:9px;border:1px solid var(--border);background:#0b1c31;color:#fff;outline:none}
+input:focus,select:focus,textarea:focus{border-color:var(--blue)}
+select option{background:#10233d}
+button:disabled{opacity:.5;cursor:not-allowed}
+.hidden{display:none!important}
+.muted{color:var(--muted)}
+.small{font-size:12px}
