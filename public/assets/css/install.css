@@ -1,6 +1,0 @@
-/* First-time setup page (install.php) */
-body{font-family:Arial,sans-serif;background:#081426;color:#edf5ff;display:grid;place-items:center;min-height:100vh;margin:0}
-.c{background:#10233d;border:1px solid #24415f;border-radius:16px;padding:30px;width:min(420px,92%)}
-input{width:100%;padding:11px;margin:6px 0 14px;border-radius:9px;border:1px solid #24415f;background:#0b1c31;color:#fff;box-sizing:border-box}
-button{width:100%;padding:12px;border:0;border-radius:9px;background:#2585e8;color:#fff;font-weight:700;cursor:pointer}
-.m{padding:12px;border-radius:9px;background:#14385b;margin-bottom:14px;font-size:14px}a{color:#56aaff}
