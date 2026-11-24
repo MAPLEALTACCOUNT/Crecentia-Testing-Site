@@ -1,0 +1,14 @@
+/* Small single-purpose classes (replace former inline style="" attributes) */
+.mt-8{margin-top:8px}
+.mt-10{margin-top:10px}
+.mt-12{margin-top:12px}
+.mt-14{margin-top:14px}
+.mt-15{margin-top:15px}
+.mt-20{margin-top:20px}
+.panel-note{margin:10px 0 18px}
+.form-narrow{max-width:500px}
+.flex-wrap-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.summary-row{display:flex;gap:18px;flex-wrap:wrap;margin:14px 0}
+.scan-item-image{max-width:220px;max-height:180px;object-fit:contain;background:#fff;padding:6px;border-radius:10px;margin:12px 0}
+.activity-row{padding:12px 0;border-bottom:1px solid var(--border)}
+.activity-row strong{font-size:12px}
